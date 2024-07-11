@@ -35,6 +35,7 @@ border: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 #hero .hero-content {
@@ -73,13 +74,279 @@ letter-spacing: 0%;
 text-align: center;
 margin-bottom: 13px;
 }
+#why-web-dev {
+width: 946px;
+height: 1396px;
+left: 148px;
+right: 152px;
+align-self: center;
+text-align: center;
+border-radius: 16px;
+margin-left: 10%;
+margin-right: 10%;
+background: rgba(13, 19, 33, 0.02);
+
+}
+.why-title {
+    margin-bottom: 24px;
+}
+.why-description {
+margin-bottom: 48px;
+}
+#why-web-dev .td{
+    /* Frame 5 */
+position: static;
+width: 852px;
+height: 115px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 48px 0px;
+ 
+}
+.why-data{
+ /* Frame 10 */
+position: static;
+width: 850px;
+height: 240px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+
+}
+
+.i-will-do {
+    Font: Azeret Mono
+Font weight: 700
+Font size: 24px
+Row height: 36px
+Letter spacing: 0%
+Align: Align left
+}
+.In {
+    Font: Azeret Mono
+Font weight: 400
+Font size: 16pxpx
+Row height: 26px
+Letter spacing: 0%
+Align: Align left
+}
+
+.why-text{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    
+ 
+    
+}
+
+#my {
+   margin: 0 auto;
+   
+
+}
+#my .my-ins {
+  
+    text-align: center;
+    background-color: (184, 9, 9);
+}
+.my-current-target {
+/* Frame 19 */
+position: static;
+width: 1140px;
+height: 460px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 111px 0px;
+}
+.skills-container {
+    margin-top: 0px;
+    display: flex;
+    gap: 24px;
+    
+}
+.skill {
+    padding: 40px;
+    box-shadow: 0px 6px 50px 0px rgba(255, 76, 30, 0.05);
+    justify-items: left;
+}
+
+.skill img {
+    max-width: 50px;
+    display: flex;
+    justify-content: left;
+}
+.skill .skill-title {
+    /* HTML */
+position: static;
+width: 284px;
+height: 36px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.skill-description {
+    display: flex;
+    justify-content: left;
+}
+.skill-description {
+   /* Lorem Ipsum is simply dummy text of the printing. */
+position: static;
+width: 284px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.skill .learn {
+   
+    /* Learn More */
+position: static;
+width: 114px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: ;
+align-items: left;
+padding: 0px;
 
 
 
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
 
 
 
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+
+ #i-need-support {
+height: 313px;
+width: 1140px;
+background-image:url("../assets/handshake.jpg") ;
+background-position:center ;
+display: flex;
+justify-content: center;
+
+    }
+    
+.i-need-support {
+/* Frame 8 */
+position: absolute;
+width: 1140px;
+height: 313px;
+left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 180px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px;
+rgba(0, 0, 0, 0.2)
+rgba(0, 0, 0, 0.2)
+rgba(0, 0, 0, 0.2)
+}
 
 
+.ins-subtitle {
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.ins-title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+.suggest {
 
 
+}
